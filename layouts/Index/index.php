@@ -13,7 +13,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
 ?>
 
 <main>
-    <section id="home" class="pos-relative d-flex align-items-center p-40" style="height:100vh;background-image:url('{$path.images}home.jpg');background-position:center;background-repeat:no-repeat;background-size:cover;">
+    <section id="home" class="pos-relative d-flex align-items-center p-md-40 p-md-20" style="height:100vh;background-image:url('{$path.images}home.jpg');background-position:center;background-repeat:no-repeat;background-size:cover;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">

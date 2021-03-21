@@ -49,7 +49,7 @@
 					</div>
 					<div class="col-md-2">
 						<figure>
-							<img src="{$path.images}neoterre.png" style="width:100%;">
+							<img src="{$path.images}neoterre_desktop.png" style="width:100%;">
 						</figure>
 					</div>
 				</div>
