@@ -15,13 +15,20 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
 <main>
     <section id="home" class="pos-relative d-flex align-items-center p-md-40 p-md-20" style="height:100vh;background-image:url('{$path.images}home.jpg');background-position:center;background-repeat:no-repeat;background-size:cover;">
         <div class="container">
-            <div class="row">
+            <div class="row d-flex align-items-center">
                 <div class="col-md-6">
                     <h1 class="text-uppercase text-light" style="font-weight:200;"><strong style="font-weight:600;">{$lang.live_in_tulum},</strong><br>{$lang.live_in_armony}</h1>
                     <p class="text-light">{$lang.spacious_and_bright_apartments}</p>
                 </div>
                 <div class="col-md-6">
-                    <!-- Contact form -->
+                    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                    <script>
+                      hbspt.forms.create({
+                    	region: "na1",
+                    	portalId: "7235449",
+                    	formId: "e1bd5991-c001-4bc3-9639-7c95a35264eb"
+                    });
+                    </script>
                 </div>
             </div>
         </div>
@@ -86,7 +93,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
                     <h2 class="text-uppercase">{$lang.know}<br><strong>{$lang.your_next_property_in_tulum}</strong></h2>
                 </div>
                 <div class="col-md-4">
-                    <a href="{$path.images}brochure.pdf" download="Aruna Tulum.pdf" class="btn btn-dark">{$lang.download_brochure}</a>
+                    <a href="{$path.images}brochure_<?php echo Session::get_value('lang'); ?>.pdf" download="Aruna Tulum.pdf" class="btn btn-dark">{$lang.download_brochure}</a>
                 </div>
             </div>
         </div>
