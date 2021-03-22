@@ -30,7 +30,7 @@
 		<!-- End Google Tag Manager (noscript) -->
 		<header class="desktop_header p-t-40 p-b-40" style="width:100%;position:fixed;transition: 400ms;z-index:99;">
 			<div class="container">
-				<div class="row d-flex align-items-center">
+				<div class="row d-flex align-items-center no-gutters">
 					<div class="col-md-2">
 						<figure>
 							<img src="{$path.images}aruna.png">
@@ -38,12 +38,12 @@
 					</div>
 					<div class="col-md-8">
 						<nav>
-							<ul class="d-flex align-items-center" style="list-style:none;">
+							<ul class="d-flex align-items-center list-unstyled">
+								<li class="m-r-15"><a href="?lang=es"><img src="{$path.images}es.png" style="height:15px;"></a></li>
+								<li class="m-r-15"><a href="?lang=en"><img src="{$path.images}en.png" style="height:15px;"></a></li>
 								<li class="m-r-15"><a href="#home" class="text-light">{$lang.home}</a></li>
 								<li class="m-r-15"><a href="#about" class="text-light">{$lang.about_development}</a></li>
-								<li class="m-r-15"><a href="#brochure" class="text-light">{$lang.brochure}</a></li>
-								<li class="m-r-15"><a href="?lang=es"><img src="{$path.images}es.png" style="height:15px;"></a></li>
-								<li><a href="?lang=en"><img src="{$path.images}en.png" style="height:15px;"></a></li>
+								<li><a href="#brochure" class="text-light">{$lang.brochure}</a></li>
 							</ul>
 						</nav>
 					</div>

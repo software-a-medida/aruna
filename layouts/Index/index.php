@@ -13,11 +13,11 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
 ?>
 
 <main>
-    <section id="home" class="pos-relative d-flex align-items-center p-md-40 p-md-20" style="height:100vh;background-image:url('{$path.images}home.jpg');background-position:center;background-repeat:no-repeat;background-size:cover;">
+    <section id="home" class="pos-relative d-flex align-items-center p-40" style="height:100vh;background-position:center;background-repeat:no-repeat;background-size:cover;background-image:url('{$path.images}home.jpg');">
         <div class="container">
-            <div class="row d-flex align-items-center">
+            <div class="row d-flex align-items-center no-gutters">
                 <div class="col-md-6">
-                    <h1 class="text-uppercase text-light" style="font-weight:200;"><strong style="font-weight:600;">{$lang.live_in_tulum},</strong><br>{$lang.live_in_armony}</h1>
+                    <h1 class="text-uppercase text-light font-weight-light"><strong class="font-weight-bold">{$lang.live_in_tulum},</strong><br>{$lang.live_in_armony}</h1>
                     <p class="text-light">{$lang.spacious_and_bright_apartments}</p>
                 </div>
                 <div class="col-md-6" style="max-height:350px;">
@@ -36,12 +36,12 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
     </section>
     <section class="p-40" style="background-color:#000;">
         <div class="container">
-            <h2 class="d-flex align-items-center justify-content-center text-center text-uppercase text-light">70% {$lang.sold} <span style="font-size:14px;margin-left:10px;">{$lang.last_unities_to_deliver}</span></h2>
+            <h2 class="d-flex align-items-center justify-content-center text-center text-uppercase text-light">70% {$lang.sold} <span class="m-l-10" style="font-size:14px;">{$lang.last_unities_to_deliver}</span></h2>
         </div>
     </section>
     <section class="p-40">
         <div class="container">
-            <div class="row d-flex align-items-center">
+            <div class="row d-flex align-items-center no-gutters">
                 <div class="col-md-4">
                     <h2 class="text-uppercase">{$lang.from}<br><strong style="font-size:40px;">U$D 125.000</strong></h2>
                 </div>
@@ -74,12 +74,12 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
     </section>
     <section id="about" class="p-40" style="background-color:#eee">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 pos-relative">
-                    <figure>
-                        <img style="width:100%;" src="{$path.images}about.jpg">
-                    </figure>
-                    <div class="d-flex justify-content-center flex-column p-40" style="width:100%;height:70%;position:absolute;top:15%;right:-80%;background-color:#fff;">
+            <div class="row pos-relative p-tb-50 no-gutters">
+                <figure class="pos-absolute col-md-7" style="height:-webkit-fill-available;top:0px;left:0px;">
+                    <img class="img-cover" src="{$path.images}about.jpg">
+                </figure>
+                <div class="col-10 offset-1 suffix-1 col-md-7 offset-md-5 suffix-md-0">
+                    <div class="content bg-light p-40">
                         <h2 class="m-b-20 text-uppercase">{$lang.in_tulum}</h2>
                         <p class="text-justify">{$lang.the_expectaculars_natural_colors_of_tulum}</p>
                     </div>
@@ -89,7 +89,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
     </section>
     <section id="brochure" class="p-40">
         <div class="container">
-            <div class="row d-flex align-items-center">
+            <div class="row d-flex align-items-center no-gutters">
                 <div class="col-md-8">
                     <h2 class="text-uppercase">{$lang.know}<br><strong>{$lang.your_next_property_in_tulum}</strong></h2>
                 </div>
@@ -104,116 +104,116 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
             <h2 class="m-b-40 text-center text-uppercase">{$lang.gallery}</h2>
             <div class="row">
                 <div class="col-md-4 m-b-30">
-                    <figure class="pos-relative d-flex align-items-center justify-content-center" style="height:200px;overflow:hidden;">
-                        <img style="width:auto;min-width:100%;height:100%;object-fit:cover;" src="{$path.images}gallery-1.jpg">
+                    <figure class="pos-relative" style="height:200px;">
+                        <img class="img-cover" src="{$path.images}gallery-1.jpg">
                         <a href="{$path.images}gallery-1.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
                 <div class="col-md-4 m-b-30">
-                    <figure class="pos-relative d-flex align-items-center justify-content-center" style="height:200px;overflow:hidden;">
-                        <img style="width:auto;min-width:100%;height:100%;object-fit:cover;" src="{$path.images}gallery-2.jpg">
+                    <figure class="pos-relative" style="height:200px;">
+                        <img class="img-cover" src="{$path.images}gallery-2.jpg">
                         <a href="{$path.images}gallery-2.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
                 <div class="col-md-4 m-b-30">
-                    <figure class="pos-relative d-flex align-items-center justify-content-center" style="height:200px;overflow:hidden;">
-                        <img style="width:auto;min-width:100%;height:100%;object-fit:cover;" src="{$path.images}gallery-3.jpg">
+                    <figure class="pos-relative" style="height:200px;">
+                        <img class="img-cover" src="{$path.images}gallery-3.jpg">
                         <a href="{$path.images}gallery-3.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
                 <div class="col-md-4 m-b-30">
-                    <figure class="pos-relative d-flex align-items-center justify-content-center" style="height:200px;overflow:hidden;">
-                        <img style="width:auto;min-width:100%;height:100%;object-fit:cover;" src="{$path.images}gallery-4.jpg">
+                    <figure class="pos-relative" style="height:200px;">
+                        <img class="img-cover" src="{$path.images}gallery-4.jpg">
                         <a href="{$path.images}gallery-4.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
                 <div class="col-md-4 m-b-30">
-                    <figure class="pos-relative d-flex align-items-center justify-content-center" style="height:200px;overflow:hidden;">
-                        <img style="width:auto;min-width:100%;height:100%;object-fit:cover;" src="{$path.images}gallery-5.jpg">
+                    <figure class="pos-relative" style="height:200px;">
+                        <img class="img-cover" src="{$path.images}gallery-5.jpg">
                         <a href="{$path.images}gallery-5.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
                 <div class="col-md-4 m-b-30">
-                    <figure class="pos-relative d-flex align-items-center justify-content-center" style="height:200px;overflow:hidden;">
-                        <img style="width:auto;min-width:100%;height:100%;object-fit:cover;" src="{$path.images}gallery-6.jpg">
+                    <figure class="pos-relative" style="height:200px;">
+                        <img class="img-cover" src="{$path.images}gallery-6.jpg">
                         <a href="{$path.images}gallery-6.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
                 <div class="col-md-4 m-b-30">
-                    <figure class="pos-relative d-flex align-items-center justify-content-center" style="height:200px;overflow:hidden;">
-                        <img style="width:auto;min-width:100%;height:100%;object-fit:cover;" src="{$path.images}gallery-7.jpg">
+                    <figure class="pos-relative" style="height:200px;">
+                        <img class="img-cover" src="{$path.images}gallery-7.jpg">
                         <a href="{$path.images}gallery-7.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
                 <div class="col-md-4 m-b-30">
-                    <figure class="pos-relative d-flex align-items-center justify-content-center" style="height:200px;overflow:hidden;">
-                        <img style="width:auto;min-width:100%;height:100%;object-fit:cover;" src="{$path.images}gallery-8.jpg">
+                    <figure class="pos-relative" style="height:200px;">
+                        <img class="img-cover" src="{$path.images}gallery-8.jpg">
                         <a href="{$path.images}gallery-8.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
                 <div class="col-md-4 m-b-30">
-                    <figure class="pos-relative d-flex align-items-center justify-content-center" style="height:200px;overflow:hidden;">
-                        <img style="width:auto;min-width:100%;height:100%;object-fit:cover;" src="{$path.images}gallery-9.jpg">
+                    <figure class="pos-relative" style="height:200px;">
+                        <img class="img-cover" src="{$path.images}gallery-9.jpg">
                         <a href="{$path.images}gallery-9.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
                 <div class="col-md-4 m-b-30">
-                    <figure class="pos-relative d-flex align-items-center justify-content-center" style="height:200px;overflow:hidden;">
-                        <img style="width:auto;min-width:100%;height:100%;object-fit:cover;" src="{$path.images}gallery-10.jpg">
+                    <figure class="pos-relative" style="height:200px;">
+                        <img class="img-cover" src="{$path.images}gallery-10.jpg">
                         <a href="{$path.images}gallery-10.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
                 <div class="col-md-4 m-b-30">
-                    <figure class="pos-relative d-flex align-items-center justify-content-center" style="height:200px;overflow:hidden;">
-                        <img style="width:auto;min-width:100%;height:100%;object-fit:cover;" src="{$path.images}gallery-11.jpg">
+                    <figure class="pos-relative" style="height:200px;">
+                        <img class="img-cover" src="{$path.images}gallery-11.jpg">
                         <a href="{$path.images}gallery-11.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
                 <div class="col-md-4 m-b-30">
-                    <figure class="pos-relative d-flex align-items-center justify-content-center" style="height:200px;overflow:hidden;">
-                        <img style="width:auto;min-width:100%;height:100%;object-fit:cover;" src="{$path.images}gallery-12.jpg">
+                    <figure class="pos-relative" style="height:200px;">
+                        <img class="img-cover" src="{$path.images}gallery-12.jpg">
                         <a href="{$path.images}gallery-12.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
                 <div class="col-md-4 m-b-30">
-                    <figure class="pos-relative d-flex align-items-center justify-content-center" style="height:200px;overflow:hidden;">
-                        <img style="width:auto;min-width:100%;height:100%;object-fit:cover;" src="{$path.images}gallery-13.jpg">
+                    <figure class="pos-relative" style="height:200px;">
+                        <img class="img-cover" src="{$path.images}gallery-13.jpg">
                         <a href="{$path.images}gallery-13.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
                 <div class="col-md-4 m-b-30">
-                    <figure class="pos-relative d-flex align-items-center justify-content-center" style="height:200px;overflow:hidden;">
-                        <img style="width:auto;min-width:100%;height:100%;object-fit:cover;" src="{$path.images}gallery-14.jpg">
+                    <figure class="pos-relative" style="height:200px;">
+                        <img class="img-cover" src="{$path.images}gallery-14.jpg">
                         <a href="{$path.images}gallery-14.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
                 <div class="col-md-4 m-b-30">
-                    <figure class="pos-relative d-flex align-items-center justify-content-center" style="height:200px;overflow:hidden;">
-                        <img style="width:auto;min-width:100%;height:100%;object-fit:cover;" src="{$path.images}gallery-15.jpg">
+                    <figure class="pos-relative" style="height:200px;">
+                        <img class="img-cover" src="{$path.images}gallery-15.jpg">
                         <a href="{$path.images}gallery-15.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
                 <div class="col-md-4 m-b-30">
-                    <figure class="pos-relative d-flex align-items-center justify-content-center" style="height:200px;overflow:hidden;">
-                        <img style="width:auto;min-width:100%;height:100%;object-fit:cover;" src="{$path.images}gallery-16.jpg">
+                    <figure class="pos-relative" style="height:200px;">
+                        <img class="img-cover" src="{$path.images}gallery-16.jpg">
                         <a href="{$path.images}gallery-16.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
                 <div class="col-md-4 m-b-30">
-                    <figure class="pos-relative d-flex align-items-center justify-content-center" style="height:200px;overflow:hidden;">
-                        <img style="width:auto;min-width:100%;height:100%;object-fit:cover;" src="{$path.images}gallery-17.jpg">
+                    <figure class="pos-relative" style="height:200px;">
+                        <img class="img-cover" src="{$path.images}gallery-17.jpg">
                         <a href="{$path.images}gallery-17.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
                 <div class="col-md-4 m-b-30">
-                    <figure class="pos-relative d-flex align-items-center justify-content-center" style="height:200px;overflow:hidden;">
-                        <img style="width:auto;min-width:100%;height:100%;object-fit:cover;" src="{$path.images}gallery-18.jpg">
+                    <figure class="pos-relative" style="height:200px;">
+                        <img class="img-cover" src="{$path.images}gallery-18.jpg">
                         <a href="{$path.images}gallery-18.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
                 <div class="col-md-4">
-                    <figure class="pos-relative d-flex align-items-center justify-content-center" style="height:200px;overflow:hidden;">
-                        <img style="width:auto;min-width:100%;height:100%;object-fit:cover;" src="{$path.images}gallery-19.jpg">
+                    <figure class="pos-relative" style="height:200px;">
+                        <img class="img-cover" src="{$path.images}gallery-19.jpg">
                         <a href="{$path.images}gallery-19.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
@@ -226,7 +226,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
             <div class="row d-flex align-items-center">
                 <div class="col-md-6">
                     <figure>
-                        <img style="width:100%;" src="{$path.images}floor_pb.png">
+                        <img class="img-fluid" src="{$path.images}floor_pb.png">
                     </figure>
                 </div>
                 <div class="col-md-6">
@@ -246,7 +246,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
             <div class="row d-flex align-items-center">
                 <div class="col-md-6">
                     <figure>
-                        <img style="width:100%;" src="{$path.images}floor_1.png">
+                        <img class="img-fluid" src="{$path.images}floor_1.png">
                     </figure>
                 </div>
                 <div class="col-md-6">
@@ -266,7 +266,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
             <div class="row d-flex align-items-center">
                 <div class="col-md-6">
                     <figure>
-                        <img style="width:100%;" src="{$path.images}floor_2.png">
+                        <img class="img-fluid" src="{$path.images}floor_2.png">
                     </figure>
                 </div>
                 <div class="col-md-6">
@@ -283,10 +283,10 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
     <section class="p-40">
         <div class="container">
             <h2 class="m-b-40 text-center text-uppercase">{$lang.roof_top}</h2>
-            <div class="row d-flex align-items-center">
+            <div class="row d-flex align-items-center no-gutters">
                 <div class="col-md-6">
                     <figure>
-                        <img style="width:100%;" src="{$path.images}floor_roof_top.png">
+                        <img class="img-fluid" src="{$path.images}floor_roof_top.png">
                     </figure>
                 </div>
                 <div class="col-md-6">
@@ -307,7 +307,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
     </section>
     <section class="p-40" style="background-color:#eee;">
         <div class="container">
-            <div class="row d-flex align-items-center">
+            <div class="row d-flex align-items-center no-gutters">
                 <div class="col-md-8">
                     <h2 class="m-b-20 text-uppercase">{$lang.vactional_rent}</h2>
                     <p>{$lang.for_owners_we_offer}</p>
@@ -322,7 +322,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
     </section>
     <section style="background-color:#508d87;">
         <div class="container">
-            <div class="row d-flex align-items-center">
+            <div class="row d-flex align-items-center no-gutters">
                 <div class="col-md-4">
                     <h2 class="m-b-20 text-uppercase text-light">{$lang.location}</h2>
                     <p class="text-light">{$lang.aruna_in_the_best_location}</p>
