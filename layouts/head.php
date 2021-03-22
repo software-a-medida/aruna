@@ -13,7 +13,7 @@
 		<meta name="description" content="" />
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 		<link rel="stylesheet" href="https://cdn.codemonkey.com.mx/css/valkyrie.css" type="text/css" media="all" />
-		<link rel="stylesheet" href="{$path.css}styles.css?v=1.1" type="text/css" media="all" />
+		<link rel="stylesheet" href="{$path.css}styles.css?v=1.2" type="text/css" media="all" />
 		{$dependencies.css}
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -28,10 +28,10 @@
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WVX66WW"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<!-- End Google Tag Manager (noscript) -->
-		<header class="desktop_header p-t-5 p-t-md-40 p-b-5 p-b-md-40" style="width:100%;position:fixed;transition:400ms;z-index:98;">
+		<header class="desktop_header p-t-10 p-t-md-40 p-b-10 p-b-md-40" style="width:100%;position:fixed;transition:400ms;z-index:98;">
 			<div class="container">
 				<div class="row d-flex align-items-center no-gutters">
-					<div class="col-4 p-l-20" data-mobile-block>
+					<div class="col-4 p-l-10" data-mobile-block>
 						<nav>
 							<ul class="d-flex align-items-center list-unstyled">
 								<li><a class="btn btn-dark" data-action="open_mobile_menu"><i class="fas fa-bars"></i></a></li>
@@ -55,9 +55,11 @@
 						</nav>
 					</div>
 					<div class="col-4 col-md-2">
-						<figure>
-							<img class="img-fluid" src="{$path.images}neoterre_desktop.png" data-desktop>
-							<img class="img-fluid" src="{$path.images}neoterre_mobile.png" data-mobile-block>
+						<figure data-desktop>
+							<img class="img-fluid" src="{$path.images}neoterre_desktop.png">
+						</figure>
+						<figure class="d-flex align-items-center justify-content-end p-r-10" data-mobile-flex>
+							<img class="img-fluid" src="{$path.images}neoterre_mobile.png" style="width:40px;">
 						</figure>
 					</div>
 				</div>
@@ -74,8 +76,7 @@
 					<li class="m-b-20"><a href="#home" class="text-light" style="font-size:18px;">{$lang.home}</a></li>
 					<li class="m-b-20"><a href="#about" class="text-light" style="font-size:18px;">{$lang.about_development}</a></li>
 					<li class="m-b-20"><a href="#brochure" class="text-light" style="font-size:18px;">{$lang.brochure}</a></li>
-					<li class="m-b-20"><a href="?lang=es"><img src="{$path.images}es.png" style="height:15px;"></a></li>
-					<li><a href="?lang=en"><img src="{$path.images}en.png" style="height:15px;"></a></li>
+					<li><a href="?lang=es" class="m-r-20"><img src="{$path.images}es.png" style="height:20px;"></a><a href="?lang=en"><img src="{$path.images}en.png" style="height:20px;"></a></li>
 				</ul>
 			</nav>
 		</header>

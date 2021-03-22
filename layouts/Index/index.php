@@ -17,11 +17,11 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
         <div class="container">
             <div class="row d-flex align-items-center no-gutters">
                 <div class="col-md-6 m-b-20 m-b-md-0">
-                    <h1 class="text-uppercase text-light font-weight-light"><strong class="font-weight-bold">{$lang.live_in_tulum},</strong><br>{$lang.live_in_armony}</h1>
-                    <p class="text-light">{$lang.spacious_and_bright_apartments}</p>
+                    <h1 class="m-b-20 m-b-md-0 text-center text-md-left text-uppercase text-light font-weight-light"><strong class="font-weight-bold">{$lang.live_in_tulum},</strong><br>{$lang.live_in_armony}</h1>
+                    <p class="text-justify text-light">{$lang.spacious_and_bright_apartments}</p>
                 </div>
-                <div class="col-md-6" style="max-height:350px;">
-                    <h2 class="text-uppercase text-light m-b-20">{$lang.contact_us}</h2>
+                <div class="col-md-6">
+                    <h2 class="text-center text-md-left text-uppercase text-light m-b-20">{$lang.contact_us}</h2>
                     <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
                     <script>
                       hbspt.forms.create({
@@ -43,7 +43,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
         <div class="container">
             <div class="row d-flex align-items-center no-gutters">
                 <div class="col-12 col-md-4">
-                    <h2 class="text-uppercase">{$lang.from}<br><strong style="font-size:40px;">U$D 125.000</strong></h2>
+                    <h2 class="text-center text-md-left text-uppercase">{$lang.from}<br><strong style="font-size:40px;">U$D 125.000</strong></h2>
                 </div>
                 <div class="col-6 col-md-2">
                     <figure class="d-flex align-items-center justify-content-center">
@@ -80,7 +80,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
                 </figure>
                 <div class="col-10 offset-1 suffix-1 col-md-7 offset-md-5 suffix-md-0">
                     <div class="content bg-light p-40">
-                        <h2 class="m-b-20 text-uppercase">{$lang.in_tulum}</h2>
+                        <h2 class="m-b-20 text-center text-md-left text-uppercase">{$lang.in_tulum}</h2>
                         <p class="text-justify">{$lang.the_expectaculars_natural_colors_of_tulum}</p>
                     </div>
                 </div>
@@ -91,9 +91,9 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
         <div class="container">
             <div class="row d-flex align-items-center no-gutters">
                 <div class="col-md-8 m-b-20 m-b-md-0">
-                    <h2 class="text-uppercase">{$lang.know}<br><strong>{$lang.your_next_property_in_tulum}</strong></h2>
+                    <h2 class="text-center text-md-left text-uppercase">{$lang.know}<br><strong>{$lang.your_next_property_in_tulum}</strong></h2>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 text-center text-md-left">
                     <a href="{$path.images}brochure_<?php echo Session::get_value('lang'); ?>.pdf" download="Aruna Tulum.pdf" class="btn btn-dark">{$lang.download_brochure}</a>
                 </div>
             </div>
@@ -101,7 +101,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
     </section>
     <section class="p-20 p-md-40" style="background-color:#eee;">
         <div class="container">
-            <h2 class="m-b-40 text-center text-uppercase">{$lang.gallery}</h2>
+            <h2 class="m-b-20 m-b-md-40 text-center text-uppercase">{$lang.gallery}</h2>
             <div class="row">
                 <div class="col-md-4 m-b-20 m-b-md-30">
                     <figure class="pos-relative" style="height:200px;">
@@ -230,7 +230,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
                     </figure>
                 </div>
                 <div class="col-md-6">
-                    <h5 class="m-b-20 text-uppercase"><strong class="m-r-20">PB</strong><span class="m-r-20 text-secondary">1ero</span><span class="m-r-20 text-secondary">2do</span><span class="text-secondary">Roof top</span></h5>
+                    <h5 class="m-b-20 text-center text-md-left text-uppercase"><strong class="m-r-20">PB</strong><span class="m-r-20 text-secondary">1ero</span><span class="m-r-20 text-secondary">2do</span><span class="text-secondary">Roof top</span></h5>
                     <p class="m-b-20 text-justify">{$lang.floor_pb_description}</p>
                     <h5 class="m-b-20 text-uppercase">{$lang.characteristics}</h5>
                     <h6 class="text-uppercase"><strong>+ {$lang.floor_pb_char_1}</strong></h6>
@@ -250,7 +250,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
                     </figure>
                 </div>
                 <div class="col-md-6">
-                    <h5 class="m-b-20 text-uppercase"><span class="m-r-20 text-secondary">PB</span><strong class="m-r-20">1ero</strong><span class="m-r-20 text-secondary">2do</span><span class="text-secondary">Roof top</span></h5>
+                    <h5 class="m-b-20 text-center text-md-left text-uppercase"><span class="m-r-20 text-secondary">PB</span><strong class="m-r-20">1ero</strong><span class="m-r-20 text-secondary">2do</span><span class="text-secondary">Roof top</span></h5>
                     <p class="m-b-20 text-justify">{$lang.floor_1_description}</p>
                     <h5 class="m-b-20 text-uppercase">{$lang.characteristics}</h5>
                     <h6 class="text-uppercase"><strong>+ {$lang.floor_pb_char_1}</strong></h6>
@@ -270,7 +270,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
                     </figure>
                 </div>
                 <div class="col-md-6">
-                    <h5 class="m-b-20 text-uppercase"><span class="m-r-20 text-secondary">PB</span><span class="m-r-20 text-secondary">1ero</span><strong class="m-r-20">2do</strong><span class="text-secondary">Roof top</span></h5>
+                    <h5 class="m-b-20 text-center text-md-left text-uppercase"><span class="m-r-20 text-secondary">PB</span><span class="m-r-20 text-secondary">1ero</span><strong class="m-r-20">2do</strong><span class="text-secondary">Roof top</span></h5>
                     <p class="m-b-20 text-justify">{$lang.floor_2_description}</p>
                     <h5 class="m-b-20 text-uppercase">{$lang.characteristics}</h5>
                     <h6 class="text-uppercase"><strong>+ {$lang.floor_pb_char_1}</strong></h6>
@@ -290,7 +290,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
                     </figure>
                 </div>
                 <div class="col-md-6">
-                    <h5 class="m-b-20 text-uppercase"><span class="m-r-20 text-secondary">PB</span><span class="m-r-20 text-secondary">1ero</span><span class="m-r-20 text-secondary">2do</span><strong>Roof top</strong></h5>
+                    <h5 class="m-b-20 text-center text-md-left text-uppercase"><span class="m-r-20 text-secondary">PB</span><span class="m-r-20 text-secondary">1ero</span><span class="m-r-20 text-secondary">2do</span><strong>Roof top</strong></h5>
                     <p class="m-b-20 text-justify">{$lang.floor_roof_top_description}</p>
                     <h5 class="m-b-20 text-uppercase">{$lang.characteristics}</h5>
                     <h6 class="text-uppercase"><strong>+ {$lang.floor_pb_char_1}</strong></h6>
@@ -309,7 +309,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
         <div class="container">
             <div class="row d-flex align-items-center no-gutters">
                 <div class="col-md-8 p-r-0 p-r-md-20 m-b-20 m-b-md-0">
-                    <h2 class="m-b-20 text-uppercase">{$lang.vactional_rent}</h2>
+                    <h2 class="m-b-20 text-center text-md-left text-uppercase">{$lang.vactional_rent}</h2>
                     <p class="text-justify">{$lang.for_owners_we_offer}</p>
                 </div>
                 <div class="col-md-4">
@@ -324,7 +324,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
         <div class="container">
             <div class="row d-flex align-items-center no-gutters">
                 <div class="col-md-4 p-r-0 p-r-md-20 m-b-20 m-b-md-0">
-                    <h2 class="m-b-20 text-uppercase text-light">{$lang.location}</h2>
+                    <h2 class="m-b-20 text-center text-md-left text-uppercase text-light">{$lang.location}</h2>
                     <p class="text-justify text-light">{$lang.aruna_in_the_best_location}</p>
                 </div>
                 <div class="col-md-8">
@@ -338,7 +338,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
     <section class="p-20 p-md-40" style="background-color:#eee;">
         <div class="container d-flex align-items-center justify-content-center flex-column">
             <a href="mailto:info@neoterre.mx" class="text-uppercase text-dark"><strong>{$lang.email}: info@neoterre.mx</strong></a>
-            <a href="tel:+529842387572" class=" m-b-20 text-uppercase text-dark"><strong>{$lang.phone}: +52 (984) 238 75 72</strong></a>
+            <a href="tel:+529842387572" class="m-b-20 text-uppercase text-dark"><strong>{$lang.phone}: +52 (984) 238 75 72</strong></a>
             <a href="#home" class="btn btn-dark text-uppercase" style="width:100%;max-width:400px;">{$lang.contact_us}</a>
         </div>
     </section>

@@ -1,4 +1,10 @@
 
+:root {
+    --dark: 0, 0, 0;
+}
+
+/*  */
+
 body, h1, h2, h3, h4, h5, h6, p, nav, ul, figure, a, button { margin: 0px; padding: 0px; }
 figure { line-height: 0px; }
 a, button { text-decoration: none; cursor: pointer; }
@@ -10,6 +16,7 @@ a, button { text-decoration: none; cursor: pointer; }
     [data-desktop] { display: none; }
     [data-mobile-block] { display: block; }
     [data-mobile-flex] { display: flex; }
+    .container { width: 100%; margin: 0px; padding: 0px; }
 }
 
 [data-ajax-loader] {
@@ -99,6 +106,14 @@ header.desktop_header.down {
 
 /*  */
 
+@media (max-width: 768px) {
+
+    #home {
+        padding-top: 80px !important;
+        height: auto !important;
+    }
+}
+
 #home::before {
     content: '';
     position: absolute;
@@ -107,15 +122,4 @@ header.desktop_header.down {
     bottom: 0px;
     left: 0px;
     background-color: rgba(0, 0, 0, 0.4);
-}
-
-/*  */
-
-@media (max-width: 768px) {
-
-    .container {
-        width: 100%;
-        margin: 0px;
-        padding: 0px;
-    }
 }
