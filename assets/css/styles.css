@@ -85,6 +85,18 @@ header.desktop_header.down {
     background-color: #000;
 }
 
+@media (max-width: 768px) {
+
+    header.desktop_header.down {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
+
+    header.mobile_header.open {
+        left: 0px !important;
+    }
+}
+
 /*  */
 
 #home::before {
@@ -95,4 +107,15 @@ header.desktop_header.down {
     bottom: 0px;
     left: 0px;
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+/*  */
+
+@media (max-width: 768px) {
+
+    .container {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
 }

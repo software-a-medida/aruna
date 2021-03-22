@@ -13,10 +13,10 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
 ?>
 
 <main>
-    <section id="home" class="pos-relative d-flex align-items-center p-40" style="height:100vh;background-position:center;background-repeat:no-repeat;background-size:cover;background-image:url('{$path.images}home.jpg');">
+    <section id="home" class="pos-relative d-flex align-items-center p-20 p-md-40" style="height:100vh;background-position:center;background-repeat:no-repeat;background-size:cover;background-image:url('{$path.images}home.jpg');">
         <div class="container">
             <div class="row d-flex align-items-center no-gutters">
-                <div class="col-md-6">
+                <div class="col-md-6 m-b-20 m-b-md-0">
                     <h1 class="text-uppercase text-light font-weight-light"><strong class="font-weight-bold">{$lang.live_in_tulum},</strong><br>{$lang.live_in_armony}</h1>
                     <p class="text-light">{$lang.spacious_and_bright_apartments}</p>
                 </div>
@@ -34,36 +34,36 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
             </div>
         </div>
     </section>
-    <section class="p-40" style="background-color:#000;">
+    <section class="p-20 p-md-40" style="background-color:#000;">
         <div class="container">
             <h2 class="d-flex align-items-center justify-content-center text-center text-uppercase text-light">70% {$lang.sold} <span class="m-l-10" style="font-size:14px;">{$lang.last_unities_to_deliver}</span></h2>
         </div>
     </section>
-    <section class="p-40">
+    <section class="p-20 p-md-40">
         <div class="container">
             <div class="row d-flex align-items-center no-gutters">
-                <div class="col-md-4">
+                <div class="col-12 col-md-4">
                     <h2 class="text-uppercase">{$lang.from}<br><strong style="font-size:40px;">U$D 125.000</strong></h2>
                 </div>
-                <div class="col-md-2">
+                <div class="col-6 col-md-2">
                     <figure class="d-flex align-items-center justify-content-center">
                         <img src="{$path.images}icon-1.png">
                     </figure>
                     <p class="text-center">{$lang.suitable_credit_bank}</p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-6 col-md-2">
                     <figure class="d-flex align-items-center justify-content-center">
                         <img src="{$path.images}icon-2.png">
                     </figure>
                     <p class="text-center">{$lang.regime_of_condominium}</p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-6 col-md-2">
                     <figure class="d-flex align-items-center justify-content-center">
                         <img src="{$path.images}icon-3.png">
                     </figure>
                     <p class="text-center">{$lang.deliver_and_write}</p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-6 col-md-2">
                     <figure class="d-flex align-items-center justify-content-center">
                         <img src="{$path.images}icon-4.png">
                     </figure>
@@ -72,9 +72,9 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
             </div>
         </div>
     </section>
-    <section id="about" class="p-40" style="background-color:#eee">
+    <section id="about" class="p-0 p-md-40" style="background-color:#eee">
         <div class="container">
-            <div class="row pos-relative p-tb-50 no-gutters">
+            <div class="row pos-relative p-tb-40 no-gutters">
                 <figure class="pos-absolute col-md-7" style="height:-webkit-fill-available;top:0px;left:0px;">
                     <img class="img-cover" src="{$path.images}about.jpg">
                 </figure>
@@ -87,10 +87,10 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
             </div>
         </div>
     </section>
-    <section id="brochure" class="p-40">
+    <section id="brochure" class="p-20 p-md-40">
         <div class="container">
             <div class="row d-flex align-items-center no-gutters">
-                <div class="col-md-8">
+                <div class="col-md-8 m-b-20 m-b-md-0">
                     <h2 class="text-uppercase">{$lang.know}<br><strong>{$lang.your_next_property_in_tulum}</strong></h2>
                 </div>
                 <div class="col-md-4">
@@ -99,113 +99,113 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
             </div>
         </div>
     </section>
-    <section class="p-40" style="background-color:#eee;">
+    <section class="p-20 p-md-40" style="background-color:#eee;">
         <div class="container">
             <h2 class="m-b-40 text-center text-uppercase">{$lang.gallery}</h2>
             <div class="row">
-                <div class="col-md-4 m-b-30">
+                <div class="col-md-4 m-b-20 m-b-md-30">
                     <figure class="pos-relative" style="height:200px;">
                         <img class="img-cover" src="{$path.images}gallery-1.jpg">
                         <a href="{$path.images}gallery-1.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
-                <div class="col-md-4 m-b-30">
+                <div class="col-md-4 m-b-20 m-b-md-30">
                     <figure class="pos-relative" style="height:200px;">
                         <img class="img-cover" src="{$path.images}gallery-2.jpg">
                         <a href="{$path.images}gallery-2.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
-                <div class="col-md-4 m-b-30">
+                <div class="col-md-4 m-b-20 m-b-md-30">
                     <figure class="pos-relative" style="height:200px;">
                         <img class="img-cover" src="{$path.images}gallery-3.jpg">
                         <a href="{$path.images}gallery-3.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
-                <div class="col-md-4 m-b-30">
+                <div class="col-md-4 m-b-20 m-b-md-30">
                     <figure class="pos-relative" style="height:200px;">
                         <img class="img-cover" src="{$path.images}gallery-4.jpg">
                         <a href="{$path.images}gallery-4.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
-                <div class="col-md-4 m-b-30">
+                <div class="col-md-4 m-b-20 m-b-md-30">
                     <figure class="pos-relative" style="height:200px;">
                         <img class="img-cover" src="{$path.images}gallery-5.jpg">
                         <a href="{$path.images}gallery-5.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
-                <div class="col-md-4 m-b-30">
+                <div class="col-md-4 m-b-20 m-b-md-30">
                     <figure class="pos-relative" style="height:200px;">
                         <img class="img-cover" src="{$path.images}gallery-6.jpg">
                         <a href="{$path.images}gallery-6.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
-                <div class="col-md-4 m-b-30">
+                <div class="col-md-4 m-b-20 m-b-md-30">
                     <figure class="pos-relative" style="height:200px;">
                         <img class="img-cover" src="{$path.images}gallery-7.jpg">
                         <a href="{$path.images}gallery-7.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
-                <div class="col-md-4 m-b-30">
+                <div class="col-md-4 m-b-20 m-b-md-30">
                     <figure class="pos-relative" style="height:200px;">
                         <img class="img-cover" src="{$path.images}gallery-8.jpg">
                         <a href="{$path.images}gallery-8.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
-                <div class="col-md-4 m-b-30">
+                <div class="col-md-4 m-b-20 m-b-md-30">
                     <figure class="pos-relative" style="height:200px;">
                         <img class="img-cover" src="{$path.images}gallery-9.jpg">
                         <a href="{$path.images}gallery-9.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
-                <div class="col-md-4 m-b-30">
+                <div class="col-md-4 m-b-20 m-b-md-30">
                     <figure class="pos-relative" style="height:200px;">
                         <img class="img-cover" src="{$path.images}gallery-10.jpg">
                         <a href="{$path.images}gallery-10.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
-                <div class="col-md-4 m-b-30">
+                <div class="col-md-4 m-b-20 m-b-md-30">
                     <figure class="pos-relative" style="height:200px;">
                         <img class="img-cover" src="{$path.images}gallery-11.jpg">
                         <a href="{$path.images}gallery-11.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
-                <div class="col-md-4 m-b-30">
+                <div class="col-md-4 m-b-20 m-b-md-30">
                     <figure class="pos-relative" style="height:200px;">
                         <img class="img-cover" src="{$path.images}gallery-12.jpg">
                         <a href="{$path.images}gallery-12.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
-                <div class="col-md-4 m-b-30">
+                <div class="col-md-4 m-b-20 m-b-md-30">
                     <figure class="pos-relative" style="height:200px;">
                         <img class="img-cover" src="{$path.images}gallery-13.jpg">
                         <a href="{$path.images}gallery-13.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
-                <div class="col-md-4 m-b-30">
+                <div class="col-md-4 m-b-20 m-b-md-30">
                     <figure class="pos-relative" style="height:200px;">
                         <img class="img-cover" src="{$path.images}gallery-14.jpg">
                         <a href="{$path.images}gallery-14.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
-                <div class="col-md-4 m-b-30">
+                <div class="col-md-4 m-b-20 m-b-md-30">
                     <figure class="pos-relative" style="height:200px;">
                         <img class="img-cover" src="{$path.images}gallery-15.jpg">
                         <a href="{$path.images}gallery-15.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
-                <div class="col-md-4 m-b-30">
+                <div class="col-md-4 m-b-20 m-b-md-30">
                     <figure class="pos-relative" style="height:200px;">
                         <img class="img-cover" src="{$path.images}gallery-16.jpg">
                         <a href="{$path.images}gallery-16.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
-                <div class="col-md-4 m-b-30">
+                <div class="col-md-4 m-b-20 m-b-md-30">
                     <figure class="pos-relative" style="height:200px;">
                         <img class="img-cover" src="{$path.images}gallery-17.jpg">
                         <a href="{$path.images}gallery-17.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
-                <div class="col-md-4 m-b-30">
+                <div class="col-md-4 m-b-20 m-b-md-30">
                     <figure class="pos-relative" style="height:200px;">
                         <img class="img-cover" src="{$path.images}gallery-18.jpg">
                         <a href="{$path.images}gallery-18.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
@@ -220,18 +220,18 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
             </div>
         </div>
     </section>
-    <section class="p-40">
+    <section class="p-20 p-md-40">
         <div class="container">
-            <h2 class="m-b-40 text-center text-uppercase">{$lang.down_floor}</h2>
+            <h2 class="m-b-20 m-b-md-40 text-center text-uppercase">{$lang.down_floor}</h2>
             <div class="row d-flex align-items-center">
-                <div class="col-md-6">
+                <div class="col-md-6 m-b-20 m-b-md-0">
                     <figure>
                         <img class="img-fluid" src="{$path.images}floor_pb.png">
                     </figure>
                 </div>
                 <div class="col-md-6">
                     <h5 class="m-b-20 text-uppercase"><strong class="m-r-20">PB</strong><span class="m-r-20 text-secondary">1ero</span><span class="m-r-20 text-secondary">2do</span><span class="text-secondary">Roof top</span></h5>
-                    <p class="m-b-20">{$lang.floor_pb_description}</p>
+                    <p class="m-b-20 text-justify">{$lang.floor_pb_description}</p>
                     <h5 class="m-b-20 text-uppercase">{$lang.characteristics}</h5>
                     <h6 class="text-uppercase"><strong>+ {$lang.floor_pb_char_1}</strong></h6>
                     <h6 class="text-uppercase"><strong>+ {$lang.floor_pb_char_2}</strong></h6>
@@ -240,18 +240,18 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
             </div>
         </div>
     </section>
-    <section class="p-40">
+    <section class="p-20 p-md-40">
         <div class="container">
-            <h2 class="m-b-40 text-center text-uppercase">{$lang.floor_1}</h2>
+            <h2 class="m-b-20 m-b-md-40 text-center text-uppercase">{$lang.floor_1}</h2>
             <div class="row d-flex align-items-center">
-                <div class="col-md-6">
+                <div class="col-md-6 m-b-20 m-b-md-0">
                     <figure>
                         <img class="img-fluid" src="{$path.images}floor_1.png">
                     </figure>
                 </div>
                 <div class="col-md-6">
                     <h5 class="m-b-20 text-uppercase"><span class="m-r-20 text-secondary">PB</span><strong class="m-r-20">1ero</strong><span class="m-r-20 text-secondary">2do</span><span class="text-secondary">Roof top</span></h5>
-                    <p class="m-b-20">{$lang.floor_1_description}</p>
+                    <p class="m-b-20 text-justify">{$lang.floor_1_description}</p>
                     <h5 class="m-b-20 text-uppercase">{$lang.characteristics}</h5>
                     <h6 class="text-uppercase"><strong>+ {$lang.floor_pb_char_1}</strong></h6>
                     <h6 class="text-uppercase"><strong>+ {$lang.floor_pb_char_2}</strong></h6>
@@ -260,18 +260,18 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
             </div>
         </div>
     </section>
-    <section class="p-40">
+    <section class="p-20 p-md-40">
         <div class="container">
-            <h2 class="m-b-40 text-center text-uppercase">{$lang.floor_2}</h2>
+            <h2 class="m-b-20 m-b-md-40 text-center text-uppercase">{$lang.floor_2}</h2>
             <div class="row d-flex align-items-center">
-                <div class="col-md-6">
+                <div class="col-md-6 m-b-20 m-b-md-0">
                     <figure>
                         <img class="img-fluid" src="{$path.images}floor_2.png">
                     </figure>
                 </div>
                 <div class="col-md-6">
                     <h5 class="m-b-20 text-uppercase"><span class="m-r-20 text-secondary">PB</span><span class="m-r-20 text-secondary">1ero</span><strong class="m-r-20">2do</strong><span class="text-secondary">Roof top</span></h5>
-                    <p class="m-b-20">{$lang.floor_2_description}</p>
+                    <p class="m-b-20 text-justify">{$lang.floor_2_description}</p>
                     <h5 class="m-b-20 text-uppercase">{$lang.characteristics}</h5>
                     <h6 class="text-uppercase"><strong>+ {$lang.floor_pb_char_1}</strong></h6>
                     <h6 class="text-uppercase"><strong>+ {$lang.floor_pb_char_2}</strong></h6>
@@ -280,18 +280,18 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
             </div>
         </div>
     </section>
-    <section class="p-40">
+    <section class="p-20 p-md-40">
         <div class="container">
-            <h2 class="m-b-40 text-center text-uppercase">{$lang.roof_top}</h2>
+            <h2 class="m-b-20 m-b-md-40 text-center text-uppercase">{$lang.roof_top}</h2>
             <div class="row d-flex align-items-center no-gutters">
-                <div class="col-md-6">
+                <div class="col-md-6 m-b-20 m-b-md-0">
                     <figure>
                         <img class="img-fluid" src="{$path.images}floor_roof_top.png">
                     </figure>
                 </div>
                 <div class="col-md-6">
                     <h5 class="m-b-20 text-uppercase"><span class="m-r-20 text-secondary">PB</span><span class="m-r-20 text-secondary">1ero</span><span class="m-r-20 text-secondary">2do</span><strong>Roof top</strong></h5>
-                    <p class="m-b-20">{$lang.floor_roof_top_description}</p>
+                    <p class="m-b-20 text-justify">{$lang.floor_roof_top_description}</p>
                     <h5 class="m-b-20 text-uppercase">{$lang.characteristics}</h5>
                     <h6 class="text-uppercase"><strong>+ {$lang.floor_pb_char_1}</strong></h6>
                     <h6 class="text-uppercase"><strong>+ {$lang.floor_pb_char_2}</strong></h6>
@@ -300,17 +300,17 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
             </div>
         </div>
     </section>
-    <section class="p-40" style="background-color:#000;">
+    <section class="p-20 p-md-40" style="background-color:#000;">
         <div class="container">
-            <h2 class="d-flex align-items-center justify-content-center text-center text-uppercase text-light">{$lang.unities_ready_to_sell}</span></h2>
+            <h2 class="d-flex align-items-center justify-content-center text-uppercase text-center text-light">{$lang.unities_ready_to_sell}</span></h2>
         </div>
     </section>
-    <section class="p-40" style="background-color:#eee;">
+    <section class="p-20 p-md-40" style="background-color:#eee;">
         <div class="container">
             <div class="row d-flex align-items-center no-gutters">
-                <div class="col-md-8">
+                <div class="col-md-8 p-r-0 p-r-md-20 m-b-20 m-b-md-0">
                     <h2 class="m-b-20 text-uppercase">{$lang.vactional_rent}</h2>
-                    <p>{$lang.for_owners_we_offer}</p>
+                    <p class="text-justify">{$lang.for_owners_we_offer}</p>
                 </div>
                 <div class="col-md-4">
                     <figure>
@@ -320,26 +320,26 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
             </div>
         </div>
     </section>
-    <section style="background-color:#508d87;">
+    <section class="p-20 p-md-0" style="background-color:#508d87;">
         <div class="container">
             <div class="row d-flex align-items-center no-gutters">
-                <div class="col-md-4">
+                <div class="col-md-4 p-r-0 p-r-md-20 m-b-20 m-b-md-0">
                     <h2 class="m-b-20 text-uppercase text-light">{$lang.location}</h2>
-                    <p class="text-light">{$lang.aruna_in_the_best_location}</p>
+                    <p class="text-justify text-light">{$lang.aruna_in_the_best_location}</p>
                 </div>
                 <div class="col-md-8">
                     <figure>
-                        <img src="{$path.images}map.png" style="width:100%;">
+                        <img class="img-fluid" src="{$path.images}map.png">
                     </figure>
                 </div>
             </div>
         </div>
     </section>
-    <section class="p-40" style="background-color:#eee;">
+    <section class="p-20 p-md-40" style="background-color:#eee;">
         <div class="container d-flex align-items-center justify-content-center flex-column">
             <a href="mailto:info@neoterre.mx" class="text-uppercase text-dark"><strong>{$lang.email}: info@neoterre.mx</strong></a>
-            <a href="tel:+529842387572" class="text-uppercase text-dark"><strong>{$lang.phone}: +52 (984) 238 75 72</strong></a>
-            <a href="#home" class="btn btn-dark m-t-20 text-uppercase" style="min-width:400px;">{$lang.contact_us}</a>
+            <a href="tel:+529842387572" class=" m-b-20 text-uppercase text-dark"><strong>{$lang.phone}: +52 (984) 238 75 72</strong></a>
+            <a href="#home" class="btn btn-dark text-uppercase" style="width:100%;max-width:400px;">{$lang.contact_us}</a>
         </div>
     </section>
 </main>

@@ -28,15 +28,22 @@
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WVX66WW"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<!-- End Google Tag Manager (noscript) -->
-		<header class="desktop_header p-t-40 p-b-40" style="width:100%;position:fixed;transition: 400ms;z-index:99;">
+		<header class="desktop_header p-t-5 p-t-md-40 p-b-5 p-b-md-40" style="width:100%;position:fixed;transition:400ms;z-index:98;">
 			<div class="container">
 				<div class="row d-flex align-items-center no-gutters">
-					<div class="col-md-2">
+					<div class="col-4 p-l-20" data-mobile-block>
+						<nav>
+							<ul class="d-flex align-items-center list-unstyled">
+								<li><a class="btn btn-dark" data-action="open_mobile_menu"><i class="fas fa-bars"></i></a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-4 col-md-2">
 						<figure>
-							<img src="{$path.images}aruna.png">
+							<img class="img-fluid" src="{$path.images}aruna.png">
 						</figure>
 					</div>
-					<div class="col-md-8">
+					<div class="col-8 p-l-20" data-desktop>
 						<nav>
 							<ul class="d-flex align-items-center list-unstyled">
 								<li class="m-r-15"><a href="?lang=es"><img src="{$path.images}es.png" style="height:15px;"></a></li>
@@ -47,14 +54,28 @@
 							</ul>
 						</nav>
 					</div>
-					<div class="col-md-2">
+					<div class="col-4 col-md-2">
 						<figure>
-							<img src="{$path.images}neoterre_desktop.png" style="width:100%;">
+							<img class="img-fluid" src="{$path.images}neoterre_desktop.png" data-desktop>
+							<img class="img-fluid" src="{$path.images}neoterre_mobile.png" data-mobile-block>
 						</figure>
 					</div>
 				</div>
 			</div>
 		</header>
-		<!-- <header class="mobile_header">
-
-		</header> -->
+		<header class="mobile_header pos-relative d-flex align-items-center justify-content-center" data-mobile-flex style="width:300px;height:100vh;position:fixed;left:-300px;background-color:#000;transition:400ms;z-index:99;">
+			<nav class="pos-absolute" style="top:20px;left:20px;">
+				<ul>
+					<li><a class="btn btn-light" data-action="close_mobile_menu"><i class="fas fa-times"></i></a></li>
+				</ul>
+			</nav>
+			<nav>
+				<ul class="d-flex align-items-center flex-column list-unstyled">
+					<li class="m-b-20"><a href="#home" class="text-light" style="font-size:18px;">{$lang.home}</a></li>
+					<li class="m-b-20"><a href="#about" class="text-light" style="font-size:18px;">{$lang.about_development}</a></li>
+					<li class="m-b-20"><a href="#brochure" class="text-light" style="font-size:18px;">{$lang.brochure}</a></li>
+					<li class="m-b-20"><a href="?lang=es"><img src="{$path.images}es.png" style="height:15px;"></a></li>
+					<li><a href="?lang=en"><img src="{$path.images}en.png" style="height:15px;"></a></li>
+				</ul>
+			</nav>
+		</header>
