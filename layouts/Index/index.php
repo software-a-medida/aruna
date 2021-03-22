@@ -13,12 +13,12 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
 ?>
 
 <main>
-    <section id="home" class="pos-relative d-flex align-items-center p-20 p-md-40" style="height:100vh;background-position:center;background-repeat:no-repeat;background-size:cover;background-image:url('{$path.images}home.jpg');">
+    <section id="home" class="pos-relative d-flex align-items-center p-20 p-md-40" style="height:100vh;background-position:center;background-repeat:no-repeat;background-image:url('{$path.images}home_desktop.jpg');background-size:cover;">
         <div class="container">
             <div class="row d-flex align-items-center no-gutters">
-                <div class="col-md-6 m-b-20 m-b-md-0 p-r-0 p-r-md-20">
-                    <h1 class="m-b-20 text-center text-md-left text-uppercase text-light font-weight-light"><strong class="font-weight-bold">{$lang.live_in_tulum},</strong><br>{$lang.live_in_armony}</h1>
-                    <p class="text-justify text-light">{$lang.spacious_and_bright_apartments}</p>
+                <div class="home_title col-md-6 m-b-20 m-b-md-0 p-r-0 p-r-md-20">
+                    <h1 class="m-b-20 text-center text-md-left text-uppercase text-light font-weight-light" style="font-size:48px;"><strong class="font-weight-bold">{$lang.live_in_tulum},</strong><br>{$lang.live_in_armony}</h1>
+                    <p class="text-justify text-light" style="font-size:18px;">{$lang.spacious_and_bright_apartments}</p>
                 </div>
                 <div class="col-md-6 m-t-0 m-t-md-50 p-t-0 p-t-md-50">
                     <h2 class="text-center text-md-left text-uppercase text-light m-b-20">{$lang.contact_us}</h2>
@@ -310,7 +310,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
             <div class="row d-flex align-items-center no-gutters">
                 <div class="col-md-8 p-r-0 p-r-md-20 m-b-20 m-b-md-0">
                     <h2 class="m-b-20 text-center text-md-left text-uppercase">{$lang.vactional_rent}</h2>
-                    <p class="text-justify">{$lang.for_owners_we_offer}</p>
+                    <p class="text-center text-md-justify">{$lang.for_owners_we_offer}</p>
                 </div>
                 <div class="col-md-4">
                     <figure>

@@ -109,8 +109,14 @@ header.desktop_header.down {
 @media (max-width: 768px) {
 
     #home {
-        padding-top: 80px !important;
         height: auto !important;
+        padding-top: 140px !important;
+        background-position: right !important;
+        background-image: url('../images/home_mobile.jpg') !important;
+    }
+
+    #home .home_title {
+        margin-bottom: 200px !important;
     }
 }
 
