@@ -9,14 +9,14 @@ body, h1, h2, h3, h4, h5, h6, p, nav, ul, figure, a, button { margin: 0px; paddi
 figure { line-height: 0px; }
 a, button { text-decoration: none; cursor: pointer; }
 
-[data-mobile-block], [data-mobile-flex] { display: none; }
+[data-mobile-block], [data-mobile-flex] { display: none !important; }
 
 @media (max-width: 768px) {
 
-    [data-desktop] { display: none; }
-    [data-mobile-block] { display: block; }
-    [data-mobile-flex] { display: flex; }
-    .container { width: 100%; margin: 0px; padding: 0px; }
+    [data-desktop] { display: none !important; }
+    [data-mobile-block] { display: block !important; }
+    [data-mobile-flex] { display: flex !important; }
+    .container { width: 100%; margin: 0px; padding: 0px !important; }
 }
 
 [data-ajax-loader] {
