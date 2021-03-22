@@ -20,7 +20,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
                     <h1 class="text-uppercase text-light" style="font-weight:200;"><strong style="font-weight:600;">{$lang.live_in_tulum},</strong><br>{$lang.live_in_armony}</h1>
                     <p class="text-light">{$lang.spacious_and_bright_apartments}</p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" style="max-height:350px;">
                     <h2 class="text-uppercase text-light m-b-20">{$lang.contact_us}</h2>
                     <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
                     <script>
