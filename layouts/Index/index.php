@@ -21,6 +21,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
                     <p class="text-light">{$lang.spacious_and_bright_apartments}</p>
                 </div>
                 <div class="col-md-6">
+                    <h2 class="text-uppercase text-light m-b-20">{$lang.contact_us}</h2>
                     <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
                     <script>
                       hbspt.forms.create({
