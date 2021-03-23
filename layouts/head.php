@@ -37,7 +37,7 @@
 					<div class="col-4 p-l-10" data-mobile-block>
 						<nav>
 							<ul class="d-flex align-items-center list-unstyled">
-								<li><a class="btn btn-dark" data-action="open_mobile_menu"><i class="fas fa-bars"></i></a></li>
+								<li><a class="btn btn-light btn-link" data-action="open_mobile_menu"><i class="fas fa-bars"></i></a></li>
 							</ul>
 						</nav>
 					</div>
@@ -49,11 +49,12 @@
 					<div class="col-8 p-l-20" data-desktop>
 						<nav>
 							<ul class="d-flex align-items-center list-unstyled">
-								<li class="m-r-15"><a href="?lang=es"><img src="{$path.images}es.png" style="height:15px;"></a></li>
-								<li class="m-r-15"><a href="?lang=en"><img src="{$path.images}en.png" style="height:15px;"></a></li>
-								<li class="m-r-15"><a href="#home" class="text-light">{$lang.home}</a></li>
+								<li class="m-r-15"><a href="/" class="text-light">{$lang.home}</a></li>
 								<li class="m-r-15"><a href="#about" class="text-light">{$lang.about_development}</a></li>
-								<li><a href="#brochure" class="text-light">{$lang.brochure}</a></li>
+								<li class="m-r-15"><a href="#brochure" class="text-light">{$lang.brochure}</a></li>
+								<li class="m-r-15"><a href="#contact" class="text-light">{$lang.contact_us}</a></li>
+								<li class="m-r-15"><a href="?lang=es" class="text-light"><strong>ES</strong></a></li>
+								<li><a href="?lang=en" class="text-light"><strong>EN</strong></a></li>
 							</ul>
 						</nav>
 					</div>
@@ -71,15 +72,15 @@
 		<header class="mobile_header pos-relative d-flex align-items-center justify-content-center" data-mobile-flex style="width:300px;height:100vh;position:fixed;left:-300px;background-color:#000;transition:400ms;z-index:99;">
 			<nav class="pos-absolute" style="top:20px;left:20px;">
 				<ul>
-					<li><a class="btn btn-light" data-action="close_mobile_menu"><i class="fas fa-times"></i></a></li>
+					<li><a class="btn btn-light btn-link " data-action="close_mobile_menu"><i class="fas fa-times"></i></a></li>
 				</ul>
 			</nav>
 			<nav>
 				<ul class="d-flex align-items-center flex-column list-unstyled">
-					<li class="m-b-20"><a href="#home" class="text-light" style="font-size:18px;">{$lang.home}</a></li>
 					<li class="m-b-20"><a href="#about" class="text-light" style="font-size:18px;">{$lang.about_development}</a></li>
 					<li class="m-b-20"><a href="#brochure" class="text-light" style="font-size:18px;">{$lang.brochure}</a></li>
-					<li><a href="?lang=es" class="m-r-20"><img src="{$path.images}es.png" style="height:20px;"></a><a href="?lang=en"><img src="{$path.images}en.png" style="height:20px;"></a></li>
+					<li class="m-b-20"><a href="#contact" class="text-light" style="font-size:18px;">{$lang.contact_us}</a></li>
+					<li><a href="?lang=es" class="m-r-20 text-light" style="font-size:18px;"><strong>ES</strong></a><a href="?lang=en" class="text-light" style="font-size:18px;"><strong>EN</strong></a></li>
 				</ul>
 			</nav>
 		</header>
