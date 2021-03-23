@@ -22,6 +22,9 @@
 		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 		})(window,document,'script','dataLayer','GTM-WVX66WW');</script>
 		<!-- End Google Tag Manager -->
+		<!-- Facebook auth -->
+		<meta name="facebook-domain-verification" content="sekq8qxdnfvfptnsnp20gatgb3o6dl" />
+		<!-- End Facebook auth -->
 	</head>
 	<body>
 		<!-- Google Tag Manager (noscript) -->
