@@ -307,17 +307,8 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
     </section>
     <section class="p-20 p-md-40" style="background-color:#eee;">
         <div class="container">
-            <div class="row d-flex align-items-center no-gutters">
-                <div class="col-md-8 p-r-0 p-r-md-20 m-b-20 m-b-md-0">
-                    <h2 class="m-b-20 text-center text-md-left text-uppercase">{$lang.vactional_rent}</h2>
-                    <p class="text-center text-md-left">{$lang.for_owners_we_offer}</p>
-                </div>
-                <div class="col-md-4">
-                    <figure>
-                        <img src="{$path.images}casa_azul.png" style="width:100%;">
-                    </figure>
-                </div>
-            </div>
+            <h2 class="m-b-20 text-center text-uppercase">{$lang.vactional_rent}</h2>
+            <p class="text-center">{$lang.for_owners_we_offer}</p>
         </div>
     </section>
     <section class="p-20 p-md-0 p-l-md-40 p-r-md-40" style="background-color:#508d87;">
