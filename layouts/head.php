@@ -11,7 +11,7 @@
 		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
 		<meta name="author" content="codemonkey.com.mx" />
 		<meta name="description" content="" />
-		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?v=1.1" />
 		<link rel="stylesheet" href="https://cdn.codemonkey.com.mx/css/valkyrie.css" type="text/css" media="all" />
 		<link rel="stylesheet" href="{$path.css}styles.css?v=1.5" type="text/css" media="all" />
 		{$dependencies.css}
