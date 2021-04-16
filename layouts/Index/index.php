@@ -320,8 +320,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
                 </div>
                 <div class="col-md-8">
                     <figure>
-                        <img class="img-fluid" src="{$path.images}map_desktop.png" data-desktop>
-                        <img class="img-fluid" src="{$path.images}map_mobile.png" data-mobile-block>
+                        <img class="img-fluid" src="{$path.images}map.png">
                     </figure>
                 </div>
             </div>
