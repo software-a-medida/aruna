@@ -276,7 +276,7 @@ class Configuration
 	 *
      * @var integer $smtp_emailer
      */
-	public static $smtp_emailer = 'noreply@neoterre.mx';
+	public static $smtp_emailer = '';
 
 	/**
      * Correo electrónico de contacto.
