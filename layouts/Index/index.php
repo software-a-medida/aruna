@@ -43,7 +43,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
         <div class="container">
             <div class="row d-flex align-items-center no-gutters">
                 <div class="col-12 col-md-4">
-                    <h2 class="text-center text-md-left text-uppercase" style="font-size:20px;">{$lang.from}<br><strong style="font-size:40px;">U$D 125.000</strong></h2>
+                    <h2 class="text-center text-md-left text-uppercase" style="font-size:20px;">{$lang.from}<br><strong style="font-size:40px;">U$D 185.000</strong></h2>
                 </div>
                 <div class="col-6 col-md-2">
                     <figure class="d-flex align-items-center justify-content-center">
