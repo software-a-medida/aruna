@@ -211,12 +211,12 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
                         <a href="{$path.images}gallery-18.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
-                <div class="col-md-4">
+                <!-- <div class="col-md-4">
                     <figure class="pos-relative" style="height:200px;">
                         <img class="img-cover" src="{$path.images}gallery-19.jpg">
                         <a href="{$path.images}gallery-19.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
